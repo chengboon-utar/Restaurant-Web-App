@@ -3,6 +3,7 @@
 import React, { Component, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import img from '../assets/bgr2.jpg';
 
 // Import Swiper styles
 import "swiper/css";
@@ -16,19 +17,23 @@ import { height } from "@mui/system";
 class About extends Component {
   render() {
     return (
-      <div className="items-center justify-center"
-        style={{ position: 'relative', height: '100%', }}>
+      <div className="relative " >
+        <p style={{
+          position: 'absolute',
+          top: '2%',
+          left: '45%',
+          fontSize: '3vw',
+          color: 'white',
+          fontFamily: 'cursive',
+          zIndex: '1',
+        }}>About Us</p>
+
         <img
-          src='https://www.mcdonalds.com.my/storage/carousel/7f366266340f55db81dc7d53357eee7d.jpg'
-          style={{
-            flex: 1,
-            width: "1600px",
-            height: "953px",
-            objectFit: 'cover',
-            objectPosition: 'center',
-          }}
+          src={img} className="relative"
         ></img>
+
       </div >
+
     );
   }
 }
