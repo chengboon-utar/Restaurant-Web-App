@@ -1,19 +1,8 @@
 // About.js
 
-import React, { Component, useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import img from '../assets/bgr2.jpg';
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/scrollbar";
-
-// import required modules
-import { FreeMode, Scrollbar, Mousewheel } from "swiper";
-import { height } from "@mui/system";
-
+import React, { Component } from "react";
+import Nav from "../components/Nav";
+import {Link} from 'react-router-dom';
 class About extends Component {
   render() {
     return (
@@ -23,15 +12,17 @@ class About extends Component {
           top: '2%',
           left: '45%',
           fontSize: '3vw',
-          color: 'white',
           fontFamily: 'cursive',
           zIndex: '1',
         }}>About Us</p>
 
-        <img
+        {/* <img
           src={img} className="relative"
-        ></img>
-
+        ></img> */}
+      
+        <a href="/YenNing/Gallery.html">
+          Gallery
+        </a>
       </div >
 
     );
