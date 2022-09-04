@@ -64,7 +64,7 @@ const MainContainer = () => {
         </div>
 
         {/* Hero paragraph sections */}
-        <div style={{ height: '10vh' }}></div>
+        {/* <div style={{ height: '10vh' }}></div> */}
         <motion.p
           initial={{ opacity: 0, y: 200 }}
           animate={{ opacity: 1, y: 0 }}
@@ -84,10 +84,10 @@ const MainContainer = () => {
           alongside wonderfull colors and fragnances, eating a large serving of
           fresh.
         </motion.p>
-        <div style={{ height: '20vh' }}></div>
+        {/* <div style={{ height: '20vh' }}></div> */}
 
         {/* Hotest dishes */}
-        {/* <section className="w-full h-screen flex flex-col items-center mt-12">
+        <section className="w-full h-full flex flex-col items-center mt-12">
           <p className="text-[2rem] text-textColor font-semibold relative before:absolute before:content before:w-24 before:h-1 before:rounded-md before:bg-emerald-400 before:bottom-0 before:left-24">
             Our new hotest dishes
           </p>
@@ -104,9 +104,8 @@ const MainContainer = () => {
           </div>
         </section>
 
-        <section className="w-full h-225 bg-black flex flex-col items-center mt-12"></section> */}
         <Ads />
-        <Footer />
+        {/* <section className="w-full h-[225px] bg-black flex flex-col items-center mt-12"></section> */}
       </div>
     </AnimatePresence>
   );

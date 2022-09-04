@@ -100,12 +100,12 @@ const Header = () => {
                                         </NavLink>
                                     )
                                 }
-
+{/* 
                                 <NavLink to={"/userProfile"} onClick={() => setIsMenu(false)}>
                                     <p className="px-4 py-2 cursor-pointer hover:bg-slate-200">
                                         My Profile
                                     </p>
-                                </NavLink>
+                                </NavLink> */}
 
                                 <p
                                     className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-200"
@@ -234,7 +234,7 @@ const Header = () => {
                                     >
                                         New Item
                                     </NavLink>
-
+{/* 
                                     <NavLink
                                         to={"/userProfile"}
                                         className={({ isActive }) =>
@@ -243,7 +243,7 @@ const Header = () => {
                                         onClick={() => setIsMobileMenu(false)}
                                     >
                                         My Profile
-                                    </NavLink>
+                                    </NavLink> */}
                                 </>
                             )}
 

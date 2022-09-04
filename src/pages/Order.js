@@ -116,7 +116,7 @@ const Order = () => {
                   exit={{ opacity: 0, scale: 0.6 }}
                   className="flex flex-col items-center justify-center"
                 >
-                  <img src={NotFound} className="w-275" alt="" />
+                  <img src={NotFound} className="w-[631px]" alt="" />
                   <p className="text-3xl">Not Available</p>
                 </motion.div>
               )}

@@ -12,6 +12,7 @@ import Order from './pages/Order';
 import Error404 from './pages/Error404';
 import Login from './pages/Login';
 import MainContainer from './components/MainContainer';
+import Footer from './components/Footer';
 
 
 // import { collection, getDocs } from '@firebase/firestore';
@@ -70,6 +71,7 @@ function App() {
               {/* <Route exact path="/*" element={<Error404 />} /> */}
 
             </Routes>
+            <Footer />
           </Router>
         </>
       </motion.div>

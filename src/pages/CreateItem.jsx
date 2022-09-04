@@ -221,7 +221,7 @@ const CreateItem = () => {
             </select>
           </div>
 
-          <div className="group flex justify-center items-center flex-col border-2 border-dotted border-gray-300 w-full h-225 md:h-300 cursor-pointer">
+          <div className="group flex justify-center items-center flex-col border-2 border-dotted border-gray-300 w-full h-[225px] md:h-[300px] cursor-pointer">
             {isLoading ? (
               <Loader />
             ) : (
@@ -299,6 +299,7 @@ const CreateItem = () => {
             </button>
           </div>
         </div>
+        <div className="h-[30vh]"></div>
       </div>
     </AnimatePresence>
   );

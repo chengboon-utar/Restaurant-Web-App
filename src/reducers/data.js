@@ -21,8 +21,8 @@ export const categories = [
   },
   {
     id: 5,
-    name: "Pizza",
-    urlParamName: "pizza",
+    name: "Fruit",
+    urlParamName: "fruit",
   },
   {
     id: 6,
